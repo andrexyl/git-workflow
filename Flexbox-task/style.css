@@ -1,0 +1,102 @@
+**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #edebeb;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    font-family: 'Poppins';
+}
+.navbar{
+    background-color: #fff;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    background-color: #fff;
+    }
+
+
+
+.navlist{
+   display: flex;
+}
+li{
+    margin-right:40px ;
+    list-style: none;
+    color: rgb(126, 89, 89); 
+}
+
+li:nth-child(1){
+    color: #111314;
+    font-weight: bold;
+}
+
+.overview{
+    font-weight: bold;
+}
+
+.signup-button{
+    
+    background-color: #3c4969;
+    border: none;
+    font-size: 18px;
+    color: rgb(126, 89, 89);
+    margin-left: auto;
+    border-radius: 40px;
+    padding: 20px 50px;
+}
+
+
+.signup-button:focus {
+    outline: none;
+}
+.signup-button a{
+    color: #fff;
+    text-decoration: none;
+}
+.signup-button :active{
+    border: none;
+}
+.bodytext{
+    margin: auto;
+
+    text-align: center;
+    width: 28%;
+}
+.bodytext p{
+    color: #a4a9ab;
+}
+.imgcontainer{
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    color: #4a4848;
+}
+
+.imgbtn{
+    background-color: #3888c2;
+    color: #fff;
+    border: none;
+    padding: 10px ;
+
+    }
+
+    .oculusquest{
+        margin: 40px;
+    }
+
+    .oculusrifts{
+        margin: 40px;
+    }
+
+    .oculusrift{
+        margin: 40px;
+    }
